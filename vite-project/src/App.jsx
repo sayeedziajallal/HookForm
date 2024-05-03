@@ -2,14 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import HookForm from './component/HookForm'
-
+import MoreForm from './component/MoreForm'
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
-    <HookForm></HookForm>
+    <MoreForm></MoreForm>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -33,5 +31,4 @@ function App() {
     </>
   )
 }
-
 export default App
